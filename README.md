@@ -1,0 +1,2 @@
+# litejs
+rollup -c
