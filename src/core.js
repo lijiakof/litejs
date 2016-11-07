@@ -1,4 +1,4 @@
-$core = {
+let $core = {
     isArray: function (obj) {
         return Object.prototype.toString.call(obj) === '[object Array]';
     },
@@ -17,6 +17,9 @@ $core = {
     },
     extend: function(){
 
+    },
+    hello: function(){
+        console.log('hello world');
     }
 };
 export default $core;

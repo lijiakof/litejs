@@ -5,7 +5,7 @@
     (global.Lite = factory());
 }(this, (function () { 'use strict';
 
-$core = {
+var $core = {
     isArray: function (obj) {
         return Object.prototype.toString.call(obj) === '[object Array]';
     },
@@ -24,10 +24,12 @@ $core = {
     },
     extend: function(){
 
+    },
+    hello: function(){
+        console.log('hello world');
     }
 };
-var $core$1 = $core;
 
-return $core$1;
+return $core;
 
 })));

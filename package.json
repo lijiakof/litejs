@@ -1,6 +1,6 @@
 {
-  "name": "litejs",
-  "version": "0.1.0",
+  "name": "lite-js",
+  "version": "0.1.3",
   "description": "",
   "main": "dist/lite.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "lite",
     "js"
   ],
-  "author": "jay.li@baichanghui.com",
+  "author": "lijiakof",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.0.0",
