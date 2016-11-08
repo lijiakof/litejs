@@ -11,13 +11,10 @@ let $core = {
     isBoolean: function (obj) {
         return obj === !!obj
     },
-    date: {
-        add: function(){},
-        format: function(){}
-    },
     extend: function(){
 
     },
+    copy: function(){},
     hello: function(){
         console.log('hello world');
     }
