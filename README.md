@@ -37,7 +37,7 @@ npm publish
     * diff
 * object
 * network
-    * http
+    * http（不需要）
     * socket
 * storage
     * cookie

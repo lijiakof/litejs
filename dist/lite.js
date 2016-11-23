@@ -5,6 +5,16 @@
     (global.Lite = factory());
 }(this, (function () { 'use strict';
 
+date = {
+    format: function(){},
+    isLeapYear: function(){},
+    daysInMonth: function(){},
+    dayOfYear: function(){},
+    add: function(){},
+    equal: function(){},
+    diff: function(){}
+};
+
 var $core = {
     isArray: function (obj) {
         return Object.prototype.toString.call(obj) === '[object Array]';
@@ -18,13 +28,10 @@ var $core = {
     isBoolean: function (obj) {
         return obj === !!obj
     },
-    date: {
-        add: function(){},
-        format: function(){}
-    },
     extend: function(){
 
     },
+    copy: function(){},
     hello: function(){
         console.log('hello world');
     }
