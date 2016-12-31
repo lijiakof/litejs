@@ -5,9 +5,16 @@ npm publish
 
 ## api
 * core
-    * isType
-    * extend
-    * copy
+    * isArray(value)
+    * isBoolean(value)
+    * isDate(value)
+    * isFunction(value)
+    * isNumber(value)
+    * isObject(value)
+    * isString(value)
+    * extend(dist, src)
+    * copy(value)
+    * equals(value1, value2)
 * device
     * os
     * browser
@@ -15,6 +22,8 @@ npm publish
 * convert
     * toDate
     * toNumber
+    * toJson
+    * toString
     * arrayToObject
     * objectToArray
 * url
@@ -22,17 +31,18 @@ npm publish
     * stringify
     * query
 * array
-    * find //支持对象数组
-    * indexOf //支持对象数组
-    * orderBy
+    * find(value|options) //支持对象数组
+    * indexOf(value|options) //支持对象数组
+    * orderBy(options)
     * 
 * string
+    * 
 * date
-    * format
-    * isLeapYear
+    * format(fmtString)
+    * isLeapYear()
     * daysInMonth
     * dayOfYear
-    * add
+    * add(msec)
     * equal
     * diff
 * object
@@ -41,8 +51,20 @@ npm publish
     * socket
 * storage
     * cookie
+        * get(key)
+        * set(key, value, options)
+        * remove(key)
+        * clear()
     * storage
+        * get(key)
+        * set(key, value, options)
+        * remove(key)
+        * clear()
     * session
+        * get(key)
+        * set(key, value)
+        * remove(key)
+        * clear()
 * other
     * debounce
     * throttle

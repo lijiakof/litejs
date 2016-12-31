@@ -1,22 +1,32 @@
-
 let $core = {
-    isArray: function (obj) {
-        return Object.prototype.toString.call(obj) === '[object Array]';
+    isArray: function (value) {
+        return Object.prototype.toString.call(value) === '[object Array]';
     },
-    isNumber: function (obj) {
-        return typeof obj === 'number' && isFinite(obj);
+    isBoolean: function (value) {
+        return value === !!value
     },
-    isString: function (obj) {
-        return obj === obj + ''
-    },
-    isBoolean: function (obj) {
-        return obj === !!obj
-    },
-    extend: function(){
+    isDate: function (value) {
 
     },
-    copy: function(){},
-    hello: function(){
+    isFunction: function (value) {
+
+    },
+    isNumber: function (value) {
+        return typeof value === 'number' && isFinite(value);
+    },
+    isObject: function (value) {
+
+    },
+    isString: function (value) {
+        return value === value + ''
+    },
+    extend: function (dist, src) {
+
+    },
+    copy: function (value) {
+        return JSON.parse(JSON.stringify(value));
+    },
+    hello: function () {
         console.log('hello world');
     }
 };

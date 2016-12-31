@@ -49,7 +49,7 @@ $storage = {
         try {
             return decodeURIComponent(value);
         } catch (e) {
-
+            return unescape(value);
         }
     }
 };
