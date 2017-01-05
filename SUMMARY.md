@@ -46,7 +46,7 @@
     * $http（不需要）
     * $socket
 * 存储
-    * Cookie
+    * [Cookie](/doc/cookie.md)
         * $cookie.get(key)
         * $cookie.set(key, value, options)
         * $cookie.remove(key)

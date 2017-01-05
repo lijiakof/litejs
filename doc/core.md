@@ -43,7 +43,7 @@ let type = $lite.typeof(obj);
 | value | 是 | any | 传入任何类型的数据 |
 
 ### 返回
-boolean：如果是 true 就是是数组
+boolean：如果返回是 true ，那么传入的参数就是是数组
 
 ### 用法
 
