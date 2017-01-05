@@ -1,19 +1,21 @@
-# Core
+# 全局函数
 
-## $.typeof(value)
+## $lite.typeof(value)
 判断某个值是什么类型
 
 ### 参数
 
 | 参数 | 必需 | 类型 | 备注 |
-| - | - | - | - |
+| :- | :- | :- | :- |
 | value | 是 | any | 传入任何类型的数据 |
+
+*注：any 代表任意类型。*
 
 ### 返回
 string：返回类型的名字
 
 | 类型 | 描述 |
-| - | - |
+| :- | :- |
 | string | 字符串 |
 | number | 数字 |
 | array | 数组 |
@@ -27,7 +29,7 @@ string：返回类型的名字
 
 ```
 let obj = [];
-let type = $.typeof(obj);
+let type = $lite.typeof(obj);
 ```
 
 
