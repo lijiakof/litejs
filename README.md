@@ -20,31 +20,31 @@ npm publish
     * browser
     * version
 * convert
-    * toDate
-    * toNumber
-    * toJson
-    * toString
+    * toDate(value)
+    * toNumber(value)
+    * toJson(value)
+    * toString(value)
     * arrayToObject
     * objectToArray
 * url
-    * parse
-    * stringify
-    * query
+    * parse(href)
+    * stringify(location)
+    * query(href)
 * array
     * find(value|options) //支持对象数组
     * indexOf(value|options) //支持对象数组
     * orderBy(options)
-    * 
+    *
 * string
-    * 
+    * indexOf(string)
 * date
-    * format(fmtString)
-    * isLeapYear()
-    * daysInMonth
-    * dayOfYear
-    * add(msec)
-    * equal
-    * diff
+    * format(date, fmtString)
+    * isLeapYear(date)
+    * daysInMonth(date)
+    * dayOfYear(date)
+    * add(date, msec)
+    * equal(date1, date2)
+    * diff(date1, date2)
 * object
 * network
     * http（不需要）
