@@ -1,7 +1,6 @@
-
-
 * [简介](README.md)
 * [全局](/doc/core.md)
+    * $.typeof(value)
     * $.isArray(value)
     * $.isBoolean(value)
     * $.isDate(value)
@@ -12,10 +11,10 @@
     * $.extend(dist, src)
     * $.copy(value)
     * $.equals(value1, value2)
-* device
-    * os
-    * browser
-    * version
+* 环境/设备
+    * $device.os
+    * $device.browser
+    * $device.version
 * 数据转换
     * $convert.toDate(value)
     * $convert.toNumber(value)
@@ -62,6 +61,6 @@
         * $session.set(key, value)
         * $session.remove(key)
         * $session.clear()
-* other
+* 其它
     * debounce
     * throttle
