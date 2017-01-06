@@ -6,7 +6,7 @@
 
 ### 基础
 
-* [全局](/doc/core.md)
+* [全局](/core.md)
     * $.typeof(value)
     * $.isArray(value)
     * $.isBoolean(value)
