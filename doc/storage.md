@@ -1,4 +1,6 @@
-# Cookie
+# Storage
+
+## Cookie {#cookie}
 
 ### $cookie.get(key)
 
@@ -53,3 +55,7 @@ $cookie.set('user', user, {
     domain: 'litejs.org'
 });
 ```
+
+## Local Storage {#localstorage}
+
+## Session Storage {#sessionstorage}

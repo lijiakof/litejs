@@ -1,12 +1,12 @@
 # Summary
 
-* [简介o](README.md)
+* [简介](README.md)
 
 ----
 
 ### 基础
 
-* [全局](/core.md)
+* [全局](core.md)
     * $.typeof(value)
     * $.isArray(value)
     * $.isBoolean(value)
@@ -18,6 +18,8 @@
     * $.extend(dist, src)
     * $.copy(value)
     * $.equals(value1, value2)
+    * $.encode
+    * $.decode
 * 环境/设备
     * $device.os
     * $device.browser
@@ -29,10 +31,8 @@
     * $convert.toString(value)
     * $convert.arrayToObject
     * $convert.objectToArray
-* URL 操作
-    * $url.parse(href)
-    * $url.stringify(location)
-    * $url.query(href)
+
+### 计算
 * 数组
     * $array.find(value|options) //支持对象数组
     * $array.indexOf(value|options) //支持对象数组
@@ -48,28 +48,32 @@
     * $date.add(date, msec)
     * $date.equal(date1, date2)
     * $date.diff(date1, date2)
-* object
-
-### 网络
-* $http（不需要）
-* $socket
+* 对象
+* URL 操作
+    * $url.parse(href)
+    * $url.stringify(location)
+    * $url.query(href)
 
 ### 存储
-* [Cookie](/doc/cookie.md)
+* [Cookie](storage.md#cookie)
     * $cookie.get(key)
     * $cookie.set(key, value, options)
     * $cookie.remove(key)
     * $cookie.clear()
-* Local Storage
+* [Local Storage](storage.md#localstorage)
     * $storage.get(key)
     * $storage.set(key, value, options)
     * $storage.remove(key)
     * $storage.clear()
-* Session Storage
+* [Session Storage](storage.md#sessionstorage)
     * $session.get(key)
     * $session.set(key, value)
     * $session.remove(key)
     * $session.clear()
+
+### 网络
+* $http（不需要）
+* $socket
 
 ### 其它
 * debounce
