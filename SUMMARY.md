@@ -37,7 +37,7 @@
     * $array.find(value|options) //支持对象数组
     * $array.indexOf(value|options) //支持对象数组
     * $array.orderBy(options)
-    * xxx
+    * $array.
 * 字符串
     * $string.indexOf(string)
 * 日期
