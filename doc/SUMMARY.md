@@ -30,6 +30,7 @@
     * $convert.toJson(value)
     * $convert.toString(value)
     * $convert.arrayToObject
+
 ### 计算
 * 数组
     * $array.find(value) //支持对象数组
