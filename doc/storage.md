@@ -1,23 +1,6 @@
-# Storage
+# 存储
 
 ## Cookie {#cookie}
-
-### $cookie.get(key)
-
-#### 参数
-
-| 参数 | 必需 | 类型 | 备注 |
-| :-- | :-- | :-- | :-- |
-| key | 是 | string |  |
-
-#### 返回
-any: 
-
-#### 用法
-
-```
-let user = $cookie.set('user');
-```
 
 ### $cookie.set(key, value[, options])
 设置 Cookie
@@ -56,6 +39,36 @@ $cookie.set('user', user, {
 });
 ```
 
+### $cookie.get(key)
+
+#### 参数
+
+| 参数 | 必需 | 类型 | 备注 |
+| :-- | :-- | :-- | :-- |
+| key | 是 | string |  |
+
+#### 返回
+any: 
+
+#### 用法
+
+```
+let user = $cookie.set('user');
+```
+
+### $cookie.remove(key)
+### $cookie.clear()
+
 ## Local Storage {#localstorage}
 
+### $storage.set(key, value[, options])
+### $storage.get(key)
+### $storage.remove(key)
+### $storage.clear()
+
 ## Session Storage {#sessionstorage}
+
+### $session.set(key, value[, options])
+### $session.get(key)
+### $session.remove(key)
+### $session.clear()

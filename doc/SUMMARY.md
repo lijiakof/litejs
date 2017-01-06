@@ -56,20 +56,20 @@
 
 ### 存储
 * [Cookie](storage.md#cookie)
-    * $cookie.get(key)
-    * $cookie.set(key, value, options)
-    * $cookie.remove(key)
-    * $cookie.clear()
+    * $cookie.get
+    * $cookie.set
+    * $cookie.remove
+    * $cookie.clear
 * [Local Storage](storage.md#localstorage)
-    * $storage.get(key)
-    * $storage.set(key, value, options)
-    * $storage.remove(key)
-    * $storage.clear()
+    * $storage.get
+    * $storage.set
+    * $storage.remove
+    * $storage.clear
 * [Session Storage](storage.md#sessionstorage)
-    * $session.get(key)
-    * $session.set(key, value)
-    * $session.remove(key)
-    * $session.clear()
+    * $session.get
+    * $session.set
+    * $session.remove
+    * $session.clear
 
 ### 网络
 * $http（不需要）
