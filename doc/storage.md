@@ -22,7 +22,6 @@
 | path | string |  |
 | secure | string |  |
 
-
 #### 返回
 undefined
 
@@ -40,6 +39,7 @@ $cookie.set('user', user, {
 ```
 
 ### $cookie.get(key)
+获取 Cookie
 
 #### 参数
 
@@ -57,7 +57,38 @@ let user = $cookie.set('user');
 ```
 
 ### $cookie.remove(key)
+删除 Cookie
+
+#### 参数
+
+| 参数 | 必需 | 类型 | 备注 |
+| :-- | :-- | :-- | :-- |
+| key | 是 | string |  |
+
+
+#### 返回
+undefined
+
+#### 用法
+
+```
+$cookie.remove('user');
+```
+
 ### $cookie.clear()
+清除 Cookie
+
+#### 参数
+无
+
+#### 返回
+undefined
+
+#### 用法
+
+```
+$cookie.clear();
+```
 
 ## Local Storage {#localstorage}
 
