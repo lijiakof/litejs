@@ -1,6 +1,24 @@
 # Cookie
-## $cookie.set(key, value[, options])
 
+## $cookie.get(key)
+
+### 参数
+
+| 参数 | 必需 | 类型 | 备注 |
+| :-- | :-- | :-- | :-- |
+| key | 是 | string |  |
+
+### 返回
+any: 
+
+### 用法
+
+```
+let user = $cookie.set('user');
+```
+
+## $cookie.set(key, value[, options])
+设置 Cookie
 
 ### 参数
 
