@@ -1,6 +1,7 @@
 # 存储
 
 ## Cookie {#cookie}
+对 Cookie 的操作
 
 ### $cookie.set(key, value[, options])
 设置 Cookie

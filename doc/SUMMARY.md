@@ -49,7 +49,7 @@
     * $date.equal(date1, date2)
     * $date.diff(date1, date2)
 * 对象
-* URL 操作
+* URL
     * $url.parse(href)
     * $url.stringify(location)
     * $url.query(href)
