@@ -1,4 +1,9 @@
+# Summary
+
 * [简介](README.md)
+
+### 基础
+
 * [全局](/doc/core.md)
     * $.typeof(value)
     * $.isArray(value)
@@ -42,25 +47,28 @@
     * $date.equal(date1, date2)
     * $date.diff(date1, date2)
 * object
-* 网络
-    * $http（不需要）
-    * $socket
-* 存储
-    * [Cookie](/doc/cookie.md)
-        * $cookie.get(key)
-        * $cookie.set(key, value, options)
-        * $cookie.remove(key)
-        * $cookie.clear()
-    * Local Storage
-        * $storage.get(key)
-        * $storage.set(key, value, options)
-        * $storage.remove(key)
-        * $storage.clear()
-    * Session Storage
-        * $session.get(key)
-        * $session.set(key, value)
-        * $session.remove(key)
-        * $session.clear()
-* 其它
-    * debounce
-    * throttle
+
+### 网络
+* $http（不需要）
+* $socket
+
+### 存储
+* [Cookie](/doc/cookie.md)
+    * $cookie.get(key)
+    * $cookie.set(key, value, options)
+    * $cookie.remove(key)
+    * $cookie.clear()
+* Local Storage
+    * $storage.get(key)
+    * $storage.set(key, value, options)
+    * $storage.remove(key)
+    * $storage.clear()
+* Session Storage
+    * $session.get(key)
+    * $session.set(key, value)
+    * $session.remove(key)
+    * $session.clear()
+
+### 其它
+* debounce
+* throttle
