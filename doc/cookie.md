@@ -1,26 +1,26 @@
 # Cookie
 
-## $cookie.get(key)
+### $cookie.get(key)
 
-### 参数
+#### 参数
 
 | 参数 | 必需 | 类型 | 备注 |
 | :-- | :-- | :-- | :-- |
 | key | 是 | string |  |
 
-### 返回
+#### 返回
 any: 
 
-### 用法
+#### 用法
 
 ```
 let user = $cookie.set('user');
 ```
 
-## $cookie.set(key, value[, options])
+### $cookie.set(key, value[, options])
 设置 Cookie
 
-### 参数
+#### 参数
 
 | 参数 | 必需 | 类型 | 备注 |
 | :-- | :-- | :-- | :-- |
@@ -28,7 +28,7 @@ let user = $cookie.set('user');
 | vaule | 是 | any |  |
 | options | 否 | object |  |
 
-#### options
+##### options
 
 | 参数 | 类型 | 备注 |
 | :-- | :-- | :-- |
@@ -38,10 +38,10 @@ let user = $cookie.set('user');
 | secure | string |  |
 
 
-### 返回
+#### 返回
 undefined
 
-### 用法
+#### 用法
 
 ```
 let user = {
