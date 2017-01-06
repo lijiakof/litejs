@@ -1,7 +1,7 @@
 # 基础
 
 
-### $lite.typeof(value)
+### $.typeof(value)
 判断某个值是什么类型
 
 #### 参数

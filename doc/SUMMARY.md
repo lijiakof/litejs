@@ -15,9 +15,9 @@
     * $.isNumber(value)
     * $.isObject(value)
     * $.isString(value)
+    * $.isEqual(value1, value2)
     * $.extend(dist, src)
     * $.copy(value)
-    * $.equals(value1, value2)
     * $.encode
     * $.decode
 * 环境/设备
@@ -30,17 +30,18 @@
     * $convert.toJson(value)
     * $convert.toString(value)
     * $convert.arrayToObject
-    * $convert.objectToArray
-
 ### 计算
 * 数组
-    * $array.find(value|options) //支持对象数组
-    * $array.indexOf(value|options) //支持对象数组
+    * $array.find(value) //支持对象数组
+    * $array.indexOf(value) //支持对象数组
     * $array.orderBy(options)
-    * $array.
+    * $array.unique(value)
+    * $array.merge(value1, value2)
+    * $array.reverse()
 * 字符串
     * $string.indexOf(string)
 * 日期
+    * $date.now()
     * $date.format(date, fmtString)
     * $date.isLeapYear(date)
     * $date.daysInMonth(date)
@@ -49,6 +50,8 @@
     * $date.equal(date1, date2)
     * $date.diff(date1, date2)
 * 对象
+    * $object.keys(object)
+    * $object.pairs(object)
 * URL
     * $url.parse(href)
     * $url.stringify(location)
