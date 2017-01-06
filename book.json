@@ -1,4 +1,5 @@
 {
+    "root": "doc/",
     "title": "litejs",
     "description": "a js lib"
 }
