@@ -7,17 +7,17 @@
 ### 基础
 
 * [全局](core.md)
-    * $.typeof(value)
-    * $.isArray(value)
-    * $.isBoolean(value)
-    * $.isDate(value)
-    * $.isFunction(value)
-    * $.isNumber(value)
-    * $.isObject(value)
-    * $.isString(value)
+    * $.typeof
+    * $.isArray
+    * $.isBoolean
+    * $.isDate
+    * $.isFunction
+    * $.isNumber
+    * $.isObject
+    * $.isString
     * $.isEqual(value1, value2)
     * $.extend(dist, src)
-    * $.copy(value)
+    * $.copy
     * $.encode
     * $.decode
 * 环境/设备
@@ -25,10 +25,10 @@
     * $device.browser
     * $device.version
 * 数据转换
-    * $convert.toDate(value)
-    * $convert.toNumber(value)
-    * $convert.toJson(value)
-    * $convert.toString(value)
+    * $convert.toDate
+    * $convert.toNumber
+    * $convert.toString
+    * $convert.toJson
     * $convert.arrayToObject
 
 ### 计算
@@ -41,6 +41,7 @@
     * $array.reverse()
 * 字符串
     * $string.indexOf(string)
+    * $string.trim()
 * 日期
     * $date.now()
     * $date.format(date, fmtString)
