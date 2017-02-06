@@ -6,20 +6,20 @@
 
 ### 基础
 
-* [全局](core.md)
-    * $.typeof
-    * $.isArray
-    * $.isBoolean
-    * $.isDate
-    * $.isFunction
-    * $.isNumber
-    * $.isObject
-    * $.isString
-    * $.isEqual(value1, value2)
-    * $.extend(dist, src)
-    * $.copy
-    * $.encode
-    * $.decode
+* [全局 API](utils.md)
+    * [$typeof](utils.md#typeof)
+    * [$isArray](utils.md#isArray)
+    * [$isBoolean](utils.md#isBoolean)
+    * [$isDate](utils.md#isDate)
+    * [$isFunction](utils.md#isFunction)
+    * [$isNumber](utils.md#isNumber)
+    * [$isObject](utils.md#isObject)
+    * [$isString](utils.md#isString)
+    * [$isEqual(value1, value2)](utils.md#isEqual)
+    * [$extend(dist, src)](utils.md#extend)
+    * [$copy](utils.md#copy)
+    * [$encode](utils.md#encode)
+    * [$decode](utils.md#decode)
 * 环境/设备
     * $device.os
     * $device.browser
