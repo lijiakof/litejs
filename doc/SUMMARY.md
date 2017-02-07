@@ -18,11 +18,11 @@
     * [$guid](utils.md)
     * [$encode](utils.md#encode)
     * [$decode](utils.md#decode)
-* [环境\/设备](环境设备.md)
+* [环境&设备](utils.md)
     * $device.os
     * $device.browser
     * $device.version
-* [数据转换](数据转换.md)
+* [数据转换](utils.md)
     * $convert.toDate
     * $convert.toNumber
     * $convert.toString
@@ -41,24 +41,24 @@
     * $array.max()
     * $array.min()
 * 字符串
-    * $string.indexOf\(string\)
-    * $string.trim\(\)
+    * $string.indexOf
+    * $string.trim
 * 日期
-    * $date.now\(\)
+    * $date.now
     * $date.format\(date, fmtString\)
-    * $date.isLeapYear\(date\)
-    * $date.daysInMonth\(date\)
-    * $date.dayOfYear\(date\)
-    * $date.add\(date, msec\)
-    * $date.equal\(date1, date2\)
-    * $date.diff\(date1, date2\)
+    * $date.isLeapYear
+    * $date.daysInMonth
+    * $date.dayOfYear
+    * $date.add
+    * $date.equal
+    * $date.diff
 * 对象
-    * $object.keys\(object\)
-    * $object.pairs\(object\)
+    * $object.keys
+    * $object.pairs
 * URL
-    * $url.parse\(href\)
-    * $url.stringify\(location\)
-    * $url.query\(href\)
+    * $url.parse
+    * $url.stringify
+    * $url.query
 
 ## 存储
 * [Cookie](storage.md#cookie)
@@ -78,10 +78,10 @@
     * $session.clear
 
 ## 网络
-* [$http（不需要）](http（不需要）.md)
-* [$socket](socket.md)
+* $http（不需要）
+* $socket
 
 ## 其它
-* [debounce](debounce.md)
-* [throttle](throttle.md)
+* $debounce
+* $throttle
 
