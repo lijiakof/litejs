@@ -2,4 +2,3 @@
 rollup -c
 
 npm publish
-

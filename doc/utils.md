@@ -1,5 +1,6 @@
 # 基础
 
+## 全局 API
 
 ### $typeof(value) {#typeof}
 判断某个值是什么类型

@@ -18,6 +18,7 @@
     * [$isEqual(value1, value2)](utils.md#isEqual)
     * [$extend(dist, src)](utils.md#extend)
     * [$copy](utils.md#copy)
+    * [$guid](utils.md)
     * [$encode](utils.md#encode)
     * [$decode](utils.md#decode)
 * 环境/设备
@@ -32,13 +33,16 @@
     * $convert.arrayToObject
 
 ### 计算
-* 数组
+* 数组/集合
     * $array.find(value) //支持对象数组
     * $array.indexOf(value) //支持对象数组
     * $array.orderBy(options)
     * $array.unique(value)
     * $array.merge(value1, value2)
     * $array.reverse()
+    * $array.without()
+    * $array.max()
+    * $array.min()
 * 字符串
     * $string.indexOf(string)
     * $string.trim()
