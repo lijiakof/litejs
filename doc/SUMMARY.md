@@ -2,10 +2,7 @@
 
 * [简介](README.md)
 
-----
-
-### 基础
-
+## 基础
 * [全局 API](utils.md)
     * [$typeof](utils.md#typeof)
     * [$isArray](utils.md#isArray)
@@ -15,23 +12,23 @@
     * [$isNumber](utils.md#isNumber)
     * [$isObject](utils.md#isObject)
     * [$isString](utils.md#isString)
-    * [$isEqual(value1, value2)](utils.md#isEqual)
-    * [$extend(dist, src)](utils.md#extend)
+    * [$isEqual\(value1, value2\)](utils.md#isEqual)
+    * [$extend\(dist, src\)](utils.md#extend)
     * [$copy](utils.md#copy)
     * [$guid](utils.md)
     * [$encode](utils.md#encode)
     * [$decode](utils.md#decode)
-* 环境/设备
+* [环境\/设备](环境设备.md)
     * $device.os
     * $device.browser
     * $device.version
-* 数据转换
+* [数据转换](数据转换.md)
     * $convert.toDate
     * $convert.toNumber
     * $convert.toString
     * $convert.toJson
     * $convert.arrayToObject
-
+    
 ### 计算
 * 数组/集合
     * $array.find(value) //支持对象数组
@@ -44,26 +41,26 @@
     * $array.max()
     * $array.min()
 * 字符串
-    * $string.indexOf(string)
-    * $string.trim()
+    * $string.indexOf\(string\)
+    * $string.trim\(\)
 * 日期
-    * $date.now()
-    * $date.format(date, fmtString)
-    * $date.isLeapYear(date)
-    * $date.daysInMonth(date)
-    * $date.dayOfYear(date)
-    * $date.add(date, msec)
-    * $date.equal(date1, date2)
-    * $date.diff(date1, date2)
+    * $date.now\(\)
+    * $date.format\(date, fmtString\)
+    * $date.isLeapYear\(date\)
+    * $date.daysInMonth\(date\)
+    * $date.dayOfYear\(date\)
+    * $date.add\(date, msec\)
+    * $date.equal\(date1, date2\)
+    * $date.diff\(date1, date2\)
 * 对象
-    * $object.keys(object)
-    * $object.pairs(object)
+    * $object.keys\(object\)
+    * $object.pairs\(object\)
 * URL
-    * $url.parse(href)
-    * $url.stringify(location)
-    * $url.query(href)
+    * $url.parse\(href\)
+    * $url.stringify\(location\)
+    * $url.query\(href\)
 
-### 存储
+## 存储
 * [Cookie](storage.md#cookie)
     * $cookie.get
     * $cookie.set
@@ -80,10 +77,11 @@
     * $session.remove
     * $session.clear
 
-### 网络
-* $http（不需要）
-* $socket
+## 网络
+* [$http（不需要）](http（不需要）.md)
+* [$socket](socket.md)
 
-### 其它
-* debounce
-* throttle
+## 其它
+* [debounce](debounce.md)
+* [throttle](throttle.md)
+
