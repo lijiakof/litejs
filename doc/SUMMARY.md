@@ -12,40 +12,39 @@
     * [$isNumber](utils.md#isNumber)
     * [$isObject](utils.md#isObject)
     * [$isString](utils.md#isString)
-    * [$isEqual\(value1, value2\)](utils.md#isEqual)
-    * [$extend\(dist, src\)](utils.md#extend)
+    * [$isEqual(value1, value2)](utils.md#isEqual)
+    * [$extend(dist, src)](utils.md#extend)
     * [$copy](utils.md#copy)
     * [$guid](utils.md)
     * [$encode](utils.md#encode)
     * [$decode](utils.md#decode)
 * [环境&设备](utils.md)
-    * $device.os
-    * $device.browser
-    * $device.version
+    * [$device.os](device.md#os)
+    * [$device.version](device.md#version)
+    * [$device.browser](device.md#browser)
 * [数据转换](utils.md)
     * $convert.toDate
     * $convert.toNumber
     * $convert.toString
     * $convert.toJson
-    * $convert.arrayToObject
     
 ### 计算
 * 数组/集合
     * $array.find(value) //支持对象数组
     * $array.indexOf(value) //支持对象数组
-    * $array.orderBy(options)
-    * $array.unique(value)
-    * $array.merge(value1, value2)
-    * $array.reverse()
-    * $array.without()
-    * $array.max()
-    * $array.min()
+    * $array.orderBy
+    * $array.unique
+    * $array.merge
+    * $array.reverse
+    * $array.without
+    * $array.max
+    * $array.min
 * 字符串
     * $string.indexOf
     * $string.trim
 * 日期
     * $date.now
-    * $date.format\(date, fmtString\)
+    * $date.format(date, fmtString)
     * $date.isLeapYear
     * $date.daysInMonth
     * $date.dayOfYear
@@ -59,6 +58,7 @@
     * $url.parse
     * $url.stringify
     * $url.query
+* map
 
 ## 存储
 * [Cookie](storage.md#cookie)
