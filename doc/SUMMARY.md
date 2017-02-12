@@ -29,16 +29,6 @@
     * $convert.toJson
     
 ### 计算
-* 数组/集合
-    * $array.find(value) //支持对象数组
-    * $array.indexOf(value) //支持对象数组
-    * $array.orderBy
-    * $array.unique
-    * $array.merge
-    * $array.reverse
-    * $array.without
-    * $array.max
-    * $array.min
 * 字符串
     * $string.indexOf
     * $string.trim
@@ -51,6 +41,16 @@
     * $date.add
     * $date.equal
     * $date.diff
+* 数组/集合
+    * $array.find(value) //支持对象数组
+    * $array.indexOf(value) //支持对象数组
+    * $array.orderBy
+    * $array.unique
+    * $array.merge
+    * $array.reverse
+    * $array.without
+    * $array.max
+    * $array.min
 * 对象
     * $object.keys
     * $object.pairs

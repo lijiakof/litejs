@@ -61,6 +61,3 @@ string：返回浏览器的名称。
 ```
 let br = $device.browser();
 ```
-
-
-
