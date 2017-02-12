@@ -18,7 +18,7 @@
     * [$guid](utils.md)
     * [$encode](utils.md#encode)
     * [$decode](utils.md#decode)
-* [环境&设备](utils.md)
+* [环境&设备](device.md)
     * [$device.os](device.md#os)
     * [$device.version](device.md#version)
     * [$device.browser](device.md#browser)
