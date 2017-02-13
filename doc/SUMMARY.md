@@ -85,4 +85,6 @@
 * $debounce
 * $throttle
 
-* 开发团队
+----
+
+* 关于我们
