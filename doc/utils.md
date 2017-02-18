@@ -15,15 +15,15 @@
 #### 返回
 string：返回类型的名字。
 
-| 类型 | 描述 |
-| :--- | :--- |
-| string | 字符串 |
-| number | 数字 |
-| array | 数组 |
-| boolean | 布尔 |
-| object | 对象 |
-| date | 日期 |
-| function | 方法 |
+| 类型 | 描述 | 备注 |
+| :--- | :--- | :--- |
+| string | 字符串 | 例如：'string' |
+| number | 数字 | 例如：1 |
+| array | 数组 | 例如：[1, 3, 4] |
+| boolean | 布尔 | 例如：true，false |
+| object | 对象 | 例如：new Object()，{ 'name' : 'jay' } |
+| date | 日期 | 例如：new Date() |
+| function | 方法 | 例如： |
 
 #### 用法
 ```
@@ -117,9 +117,25 @@ let a = 1;
 let type = $isNumber(a);
 ```
 
+### $isObject(vaule) {#isObject}
+判断某个值是否是对象类型。
 
+#### 参数
+| 参数 | 必需 | 类型 | 备注 |
+| :--- | :--- | :--- | :--- |
+| value | 是 | any | 传入任何类型的数据 |
 
+#### 返回
+boolean：如果返回 true，那么传入的参数就是对象类型，否则不是。
 
+#### 用法
+```
+let a = 1;
+let type = $isObject(a);
+```
+
+### $isString(value) {#isString}
+判断某个值是否是字符串类型。
 
 
 
