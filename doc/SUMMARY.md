@@ -20,7 +20,6 @@
     * [$decode](utils.md#decode)
 * [环境&设备](device.md)
     * [$device.os](device.md#os)
-    * [$device.version](device.md#version)
     * [$device.browser](device.md#browser)
 * [数据转换](utils.md)
     * $convert.toDate
@@ -28,7 +27,7 @@
     * $convert.toString
     * $convert.toJson
     
-### 计算
+## 计算
 * 字符串
     * $string.indexOf
     * $string.trim
