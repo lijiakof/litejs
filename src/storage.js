@@ -1,3 +1,4 @@
+
 $storage = {
     cookie: {
         get: function (key) {
@@ -36,11 +37,39 @@ $storage = {
         }
     },
     local: {
-        get: function () {},
-        set: function () {}
+        get: function (key) {
+            if(key) {
+                window.localStorage.getItem(key);
+            }
+        },
+        set: function (key, value, options) {
+            if(key) {
+                window.localStorage.setItem(key, value);
+            }
+        },
+        remove: function (key) {
+            window.localStorage.removeItem(key);
+        },
+        clear: function() {
+            window.localStorage.clear();
+        }
     },
     session: {
-        get: function () {},
-        set: function () {}
+        get: function (key) {
+            if(key) {
+                window.sessionStorage.getItem(key);
+            }
+        },
+        set: function (key, value) {
+            if(key) {
+                window.sessionStorage.setItem(key, value);
+            }
+        },
+        remove: function (key) {
+            window.sessionStorage.removeItem(key);
+        },
+        clear: function() {
+            window.sessionStorage.clear();
+        }
     }
 };

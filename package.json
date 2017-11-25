@@ -12,6 +12,9 @@
     ],
     "author": "lijiakof",
     "license": "ISC",
+    "publishConfig": {
+      "registry": "http://10.5.1.143:4873/"
+    },
     "devDependencies": {
         "babel-core": "^6.0.0",
         "babel-loader": "^6.0.0",
