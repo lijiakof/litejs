@@ -1,10 +1,12 @@
-/** @module date */
+/**
+ * 日期模块 
+ * @module date */
 
 export default {
     /**
-     * 获取当前时间 测试
+     * 获取当前时间
      * @param { String } accurate - 时间精度
-     * @return { String } 当前的时间
+     * @return { Date } 当前的时间
      */
     now: function () { },
     /**

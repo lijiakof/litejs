@@ -1,5 +1,7 @@
-$url = {
-    parse: function(){},
-    href: function(){},
-    query: function(){}
-};
+/** @module url */
+
+export default {
+    parse: function () { },
+    href: function () { },
+    query: function () { }
+}
