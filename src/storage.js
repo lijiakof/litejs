@@ -73,3 +73,6 @@ $storage = {
         }
     }
 };
+
+
+export default $storage;

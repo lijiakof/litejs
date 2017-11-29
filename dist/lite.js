@@ -1,42 +1,54 @@
 /*lite js*/
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global.Lite = factory());
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(factory());
 }(this, (function () { 'use strict';
 
-date = {
-    format: function(){},
-    isLeapYear: function(){},
-    daysInMonth: function(){},
-    dayOfYear: function(){},
-    add: function(){},
-    equal: function(){},
-    diff: function(){}
+var date = {
+  now: function now() {},
+
+  format: function format(date, fmtString) {},
+  add: function add() {},
+  isLeapYear: function isLeapYear() {},
+  daysInMonth: function daysInMonth() {},
+  dayOfYear: function dayOfYear() {},
+  equal: function equal() {},
+  diff: function diff() {}
 };
 
-var $core = {
-    isArray: function (obj) {
-        return Object.prototype.toString.call(obj) === '[object Array]';
-    },
-    isNumber: function (obj) {
-        return typeof obj === 'number' && isFinite(obj);
-    },
-    isString: function (obj) {
-        return obj === obj + ''
-    },
-    isBoolean: function (obj) {
-        return obj === !!obj
-    },
-    extend: function(){
+var utils = {
+    copy: function copy(value) {
 
+        var obj = new Object();
+
+        for (var attr in value) {
+            if (value.hasOwnProperty(attr)) {
+                if (typeof obj[attr] !== 'function') {
+                    if (value[attr] === null) {
+                        obj[attr] = null;
+                    } else {
+                        obj[attr] = this.$copy(value[attr]);
+                    }
+                }
+            }
+        }
+
+        return obj;
     },
-    copy: function(){},
-    hello: function(){
-        console.log('hello world');
+    hash: function hash(value) {
+        var hash = 1315423911,
+            i,
+            ch;
+        for (i = string.length - 1; i >= 0; i--) {
+            ch = string.charCodeAt(i);
+            hash ^= (hash << 5) + ch + (hash >> 2);
+        }
+        return hash & 0x7FFFFFFF;
     }
 };
 
-return $core;
+console.log('hello world');
 
 })));
+//# sourceMappingURL=lite.js.map
