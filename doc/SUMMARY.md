@@ -2,7 +2,7 @@
 
 * [简介](README.md)
 
-## 基础
+## 基础 
 * [全局 API](utils.md)
     * [$typeof](utils.md#typeof)
     * [$isArray](utils.md#isArray)

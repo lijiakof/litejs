@@ -1,6 +1,6 @@
 
 /**
- * 存储模块
+ * 存储 模块
  * @module storage */
 
 $storage = {
