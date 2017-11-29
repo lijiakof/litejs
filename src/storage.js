@@ -1,4 +1,8 @@
 
+/**
+ * 存储模块
+ * @module storage */
+
 $storage = {
     cookie: {
         get: function (key) {

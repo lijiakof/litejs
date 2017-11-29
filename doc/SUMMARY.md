@@ -31,7 +31,7 @@
 * 字符串
     * $string.indexOf
     * $string.trim
-* 日期
+* [日期](date.md)
     * $date.now
     * $date.format(date, fmtString)
     * $date.isLeapYear
