@@ -6,11 +6,13 @@ const srcPath = './src/';
 const distPath = './doc/'
 
 fs.readdirSync(srcPath).forEach((file) => {
-    jsdoc2md.render({
-        files: srcPath + file
-    }).then((markdown) => {
-        let fileName = distPath + file;
-        fileName = fileName.split('.js')[0]
-        fs.writeFile(fileName + '.md', markdown);
-    })
+    if (file != 'main.js') {
+        jsdoc2md.render({
+            files: srcPath + file
+        }).then((markdown) => {
+            let fileName = distPath + file;
+            fileName = fileName.split('.js')[0]
+            fs.writeFile(fileName + '.md', markdown);
+        })
+    }
 })
