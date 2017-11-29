@@ -12,7 +12,5 @@ npm publish
 
 karma
 
-test
-
 jasmine
 
