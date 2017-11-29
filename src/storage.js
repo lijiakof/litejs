@@ -75,4 +75,14 @@ $storage = {
 };
 
 
-export default $storage;
+export default {
+    set: function(key, any) {
+
+    },
+    get: function(key) {
+
+    },
+    remove: function(key) {
+
+    }
+};

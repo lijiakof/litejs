@@ -1,4 +1,6 @@
-/** @module utils */
+/** 
+ * 公共模块
+ * @module utils */
 
 export default {
     /**

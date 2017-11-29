@@ -1,7 +1,6 @@
 
-convert = {
-    arrayToObject: function(){},
-    objectToArray: function(){},
-    toDate: function(){},
-    toNumber: function(){}
+
+export default {
+    toDate: function () { },
+    toNumber: function () { }
 }

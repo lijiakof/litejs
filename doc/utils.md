@@ -1,6 +1,8 @@
 <a name="module_utils"></a>
 
 ## utils
+公共模块
+
 <a name="module_utils.copy"></a>
 
 ### utils.copy(value) ⇒ <code>Any</code>
