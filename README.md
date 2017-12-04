@@ -1,4 +1,6 @@
 # litejs
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flijiakof%2Flitejs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flijiakof%2Flitejs?ref=badge_shield)
+
 
 litejs 是一套轻量级的 JavaScript 工具库。它采用 UMD 模块化规范，既可以在浏览器端运行，也能在 node 环境下运行。它提供了很多有用的方法，帮你解决平时开发过程中的问题。
 
@@ -14,3 +16,7 @@ karma
 
 jasmine
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flijiakof%2Flitejs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flijiakof%2Flitejs?ref=badge_large)
