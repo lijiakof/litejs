@@ -14,3 +14,5 @@ karma
 
 jasmine
 
+https://app.fossa.io
+MIT

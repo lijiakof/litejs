@@ -80,6 +80,11 @@ $storage = {
 
 
 export default {
+    /**
+     * 设置存储
+     * @param { String } key - 设置存储的 Key
+     * @param { Any } any - 设置存储的内容
+     */
     set: function(key, any) {
 
     },
