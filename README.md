@@ -10,9 +10,11 @@ rollup -c
 
 npm publish
 
-karma
-
-jasmine
+## 工具
+* npm or yarn
+* eslint or flow
+* rollup
+* karma & jasmine
 
 https://app.fossa.io
 MIT

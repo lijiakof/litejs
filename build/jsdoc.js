@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const srcPath = './src/';
-const distPath = './doc/'
+const distPath = './doc/';
 
 // TODO: 生成目录
 // TODO: 是否能优化
