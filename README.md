@@ -13,8 +13,12 @@ npm publish
 ## 工具
 * npm or yarn
 * eslint or flow
-* rollup
+* rollup or parceljs
 * karma & jasmine
+* jsdoc
+* i18n
+* netlify
+* MIT License
 
 https://app.fossa.io
 MIT
