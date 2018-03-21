@@ -11,8 +11,8 @@
     "lite",
     "js"
   ],
-  "author": "lijiakof",
-  "license": "ISC",
+  "author": "geekjune",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
