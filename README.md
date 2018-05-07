@@ -14,7 +14,7 @@ npm publish
 * npm or yarn
 * eslint or flow
 * rollup or parceljs
-* karma & jasmine
+* karma & jasmine or jest
 * jsdoc
 * i18n
 * netlify
